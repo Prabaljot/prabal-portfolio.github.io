@@ -74,7 +74,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  /* flex-direction: column; */
+  flex-direction: column;
   width: 100vw;
 }
 
@@ -97,7 +97,7 @@ body {
   width: 60vw;
 }
 
-#about .right p{
+#about .right p details summary{
   text-align: center;
   font-size: 1.5em;
 }
@@ -115,12 +115,28 @@ body {
   flex-direction: column;
 }
 
-.skills .title h1 {
+.skills .skill-box{
+  display: flex;
+  align-items: center;
+  width: 80vw;
+  flex-direction: column;
+}
+
+.skills .skill-box .sub-skill-box{
+  justify-content: space-around;
+  display: flex;
+  width: 80vw;
+  flex-direction: row;
+}
+
+.title h1 {
+  text-align: center;
   font-size: 3em;
 }
 
-@media screen and (max-width: 1400px){
-  #about{
-    flex-direction: column;
-  }
+.blog {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }

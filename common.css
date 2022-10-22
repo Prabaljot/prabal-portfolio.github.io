@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+* {
+  margin: 0px;
+  padding: 0px;
+  color: #fff;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+  font-family: 'Roboto', sans-serif;
+}
+
+:root {
+  --title-font: "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif;
+  --menu-font: sans-serif;
+}
+
+body {
+  background-color: #1e071e;
+}
+
+.navbar {
+    position: sticky;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 99vw;
+    height: 7vh;
+    background: #1e071e;
+  }
+  
+  .navbar div {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 50%;
+    height: 7vh;
+    font-size: 1.3em;
+    /* background: blue; */
+  }
+  .navbar div {
+    font-family: var(--title-font);
+  }
+  
+  .navbar ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+    height: 7vh;
+  }
+  
+  .navbar ul li {
+    list-style: none;
+    font-family: var(--menu-font);
+    font-size: 1.5em;
+  }
+  .navbar ul li a {
+    text-decoration: underline double;
+  }
+  
